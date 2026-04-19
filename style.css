@@ -215,3 +215,117 @@ body {
 .sobre_mi_info li {
     border-bottom: 1px solid #e5e7eb;
 }
+
+.habilidades {
+    background-color: #F4F7F5;
+    padding: 60px 80px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.habilidades h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #6B7280;
+    margin-bottom: 40px;
+}
+
+.contenedor-tabla {
+    overflow-x: auto;
+    margin-bottom: 40px;
+}
+
+.tabla-habilidades {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabla-habilidades thead {
+    background-color: #1F3D36;
+    color: white;
+}
+
+.tabla-habilidades th,
+.tabla-habilidades td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tabla-habilidades tbody tr:nth-child(even) {
+    background-color: #f0f3f2;
+}
+
+.barra {
+    height: 8px;
+    border-radius: 5px;
+    background-color: #d1d5db;
+    position: relative;
+}
+
+.barra::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.barra.html::after {
+    width: 90%;
+    background-color: #3FA796;
+}
+
+.barra.css::after {
+    width: 80%;
+    background-color: #2E8B73;
+}
+
+.barra.js::after {
+    width: 70%;
+    background-color: #5FAF9F;
+}
+
+.barra.git::after {
+    width: 65%;
+    background-color: #4C9F8A;
+}
+
+.barra.react::after {
+    width: 50%;
+    background-color: #7BC4B2;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.tarjeta h3 {
+    margin-bottom: 15px;
+    color: #1F3D36;
+}
+
+.tarjeta ul,
+.tarjeta ol {
+    padding-left: 20px;
+}
+
+.tarjeta li {
+    margin-bottom: 10px;
+}
