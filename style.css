@@ -430,3 +430,147 @@ body {
 .contenido-proyecto a:hover {
     text-decoration: underline;
 }
+
+.contacto {
+    background-color: #F4F7F5;
+    padding: 60px 80px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.subtitulo {
+    color: #6B7280;
+    margin-bottom: 40px;
+}
+
+.contenedor-contacto {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.fila {
+    display: flex;
+    gap: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.campo label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    outline: none;
+}
+
+.campo textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.boton-enviar {
+    background-color: #1F3D36;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: #3FA796;
+}
+
+.info-contacto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.info-contacto h3 {
+    margin-bottom: 15px;
+    color: #1F3D36;
+}
+
+.info-contacto ul {
+    list-style: none;
+}
+
+.info-contacto li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #1F3D36;
+    color: white;
+    padding: 30px 80px;
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.logo-footer {
+    background-color: #3FA796;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nombre-footer {
+    font-weight: bold;
+}
+
+.redes a {
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #2E5E4E;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.redes a:hover {
+    background-color: #3FA796;
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.8;
+}
