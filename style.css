@@ -329,3 +329,104 @@ body {
 .tarjeta li {
     margin-bottom: 10px;
 }
+
+.proyectos {
+    background-color: #F4F7F5;
+    padding: 60px 80px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.proyectos h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #6B7280;
+    margin-bottom: 40px;
+}
+
+.contenedor-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.tarjeta-proyecto {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.imagen-proyecto {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.gradiente-1 {
+    background: linear-gradient(135deg, #1F3D36, #3FA796);
+}
+
+.gradiente-2 {
+    background: linear-gradient(135deg, #2E5E4E, #5FAF9F);
+}
+
+.gradiente-3 {
+    background: linear-gradient(135deg, #1F3D36, #2E8B73);
+}
+
+.gradiente-4 {
+    background: linear-gradient(135deg, #3FA796, #7BC4B2);
+}
+
+.gradiente-5 {
+    background: linear-gradient(135deg, #2E5E4E, #3FA796);
+}
+
+.gradiente-6 {
+    background: linear-gradient(135deg, #4C9F8A, #A7D7C5);
+}
+
+.contenido-proyecto {
+    padding: 20px;
+}
+
+.categoria {
+    font-size: 12px;
+    color: #6B7280;
+    margin-bottom: 5px;
+}
+
+.contenido-proyecto h3 {
+    margin-bottom: 10px;
+    color: #1F3D36;
+}
+
+.contenido-proyecto p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contenido-proyecto a {
+    text-decoration: none;
+    color: #3FA796;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contenido-proyecto a:hover {
+    text-decoration: underline;
+}
